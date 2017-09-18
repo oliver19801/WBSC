@@ -6,16 +6,16 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity 
-    Name="57ea1137-efbb-4c53-8fa1-55a2996af48f"
-    Publisher="CN=olli-"
+  <Identity
+    Name="70e52633-c922-48ea-a2c6-1c5a8ab54df7"
+    Publisher="CN=OliverHoffmann"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="f736c883-f105-4d30-a719-4bf328872f5e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="70e52633-c922-48ea-a2c6-1c5a8ab54df7" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>WBSC.UWP</DisplayName>
-    <PublisherDisplayName>olli-</PublisherDisplayName>
+    <PublisherDisplayName>OliverHoffmann</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -26,11 +26,11 @@
   <Resources>
     <Resource Language="x-generate"/>
   </Resources>
-
+  
   <Applications>
     <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="WBSC.UWP.App">
+      Executable="$targetnametoken$.exe"
+      EntryPoint="WBSC.UWP.App">
       <uap:VisualElements
         DisplayName="WBSC.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
